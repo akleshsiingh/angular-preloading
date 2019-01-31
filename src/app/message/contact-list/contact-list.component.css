@@ -1,0 +1,21 @@
+.chat_people{ overflow:hidden; clear:both;}
+.chat_list {
+  border-bottom: 1px solid #c4c4c4;
+  margin: 0;
+  padding: 18px 16px 10px;
+}
+.inbox_chat { height: 80vh; overflow-y: scroll;}
+
+.active_chat{ background:#ebebeb;}
+
+img{ max-width:100%;}
+
+.chat_img {
+    float: left;
+    width: 11%;
+  }
+  .chat_ib {
+    float: left;
+    padding: 0 0 0 15px;
+    width: 88%;
+  }

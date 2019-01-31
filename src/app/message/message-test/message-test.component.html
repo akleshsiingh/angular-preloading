@@ -1,0 +1,61 @@
+<div class="container-fluid px-5 wrapper">
+  <h3>Messaging</h3>
+  <div class="messaging">
+    <div class="inbox_msg">
+      <div class="inbox_people">
+        <div class="headind_srch">
+          <div class="recent_heading">
+            <h4>Recent</h4>
+          </div>
+          <div class="srch_bar">
+            <div class="stylish-input-group">
+              <input type="text" class="search-bar" placeholder="Search">
+              <span class="input-group-addon">
+                <button type="button"> <i class="fa fa-search" aria-hidden="true"></i> </button>
+              </span> </div>
+          </div>
+        </div>
+        <!--contact list-->
+        <app-contact-list></app-contact-list>
+        <!--contact list ENDS-->
+      </div>
+
+      <div class="mesgs">
+        <!--Message list-->
+        <div class="msg_history" #scrollMe>
+
+          <!--INCOMING MSG-->
+          <app-message-incoming></app-message-incoming>
+          <!--INCOMING MSG ENDS-->
+
+           <!--OUTGOING MSG-->
+           <app-message-outgoing></app-message-outgoing>
+          <!--OUTGOING MSG END-->
+
+           <!--INCOMING MSG-->
+           <app-message-incoming></app-message-incoming>
+           <!--INCOMING MSG ENDS-->
+
+          <!--OUTGOING MSG-->
+          <app-message-outgoing></app-message-outgoing>
+          <!--OUTGOING MSG END-->
+
+           <!--INCOMING MSG-->
+           <app-message-incoming></app-message-incoming>
+           <!--INCOMING MSG ENDS-->
+        </div>
+        <!--Message list Ends here-->
+
+        <!--enter message-->
+        <div class="type_msg">
+          <div class="input_msg_write">
+            <input type="text" class="write_msg" placeholder="Type a message" />
+            <button class="msg_send_btn" type="button"><i class="fas fa-play" aria-hidden="true"></i> send</button>
+          </div>
+        </div>
+        <!--enter message ends here-->
+      </div>
+    </div>
+
+  </div>
+</div>
