@@ -4,6 +4,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HomeComponent } from './landing/home.component';
 import { MainRoutingModule } from './main-routing.module';
+import { ProductModule } from '../product/product.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { MainRoutingModule } from './main-routing.module';
   ],
   imports: [
     CommonModule,
-    MainRoutingModule
+    MainRoutingModule,
+    ProductModule
   ],
 })
 export class MainModule { }
